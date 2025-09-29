@@ -1,10 +1,6 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import React from 'react'
-import { Link } from 'expo-router'
-import Active from '../assets/images/active.png'
-import Inactive from '../assets/images/inactive.png'
-
 import { router } from "expo-router";
 
 import AntDesign from "@expo/vector-icons/AntDesign";
