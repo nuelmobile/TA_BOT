@@ -49,12 +49,6 @@ const Index = () => {
             marginBottom: 20, 
             borderRadius: 16, 
             borderColor:'#0b889bff',
-            // borderLeftColor: '#f6f6f6ff',
-            // borderRightColor: '#f6f6f6ff',
-            // borderBottomColor: '#f6f6f6ff',
-            // borderRightWidth: 2,
-            // borderLeftWidth: 2,
-            // borderBottomWidth: 6,
             }}>
 
               <Link href='/home'>
@@ -86,13 +80,4 @@ const styles = StyleSheet.create({
   flex: 1,
   backgroundColor: '#020105ff',
 },
-
-// blackBox: {
-//   flex: 1,
-//   marginTop: 100,
-//   backgroundColor: '#000000ff',
-//   borderTopLeftRadius: 50,
-//   borderTopRightRadius: 50,
-//   padding: 20,
-// }
 })

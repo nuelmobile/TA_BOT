@@ -92,13 +92,4 @@ const styles = StyleSheet.create({
   flex: 1,
   backgroundColor: '#020105ff',
 },
-
-// blackBox: {
-//   flex: 1,
-//   marginTop: 100,
-//   backgroundColor: '#000000ff',
-//   borderTopLeftRadius: 50,
-//   borderTopRightRadius: 50,
-//   padding: 20,
-// }
 })

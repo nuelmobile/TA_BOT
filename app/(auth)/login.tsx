@@ -5,7 +5,6 @@ import {useEffect} from 'react'
 import * as NavigationBar from 'expo-navigation-bar';
 
 
-import Fontisto from '@expo/vector-icons/Fontisto';
 import { Link } from 'expo-router';
 
 const Index = () => {
@@ -98,13 +97,4 @@ const styles = StyleSheet.create({
   flex: 1,
   backgroundColor: '#020105ff',
 },
-
-// blackBox: {
-//   flex: 1,
-//   marginTop: 100,
-//   backgroundColor: '#000000ff',
-//   borderTopLeftRadius: 50,
-//   borderTopRightRadius: 50,
-//   padding: 20,
-// }
 })
