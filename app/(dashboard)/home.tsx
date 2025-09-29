@@ -1,4 +1,4 @@
-import {React, useEffect} from 'react';
+import React,{ useEffect} from 'react';
 import {
   StyleSheet,
   Text,
@@ -18,7 +18,7 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-const home = () => {
+const Home = () => {
 
 
  useEffect (() => {
@@ -226,14 +226,14 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
 
 /* ---------------------- Styles ---------------------- */
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#020105ff',
-    paddingVertical: 15, marginBottom: -10
+    paddingVertical: 15,
   },
 
   /* Header */

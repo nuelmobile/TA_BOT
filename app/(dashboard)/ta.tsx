@@ -108,7 +108,7 @@ const TA_Screen = () => {
 
   const [reasonsOpen, setReasonsOpen] = useState(true);
 
-  const openLink = async (url) => {
+  const openLink = async (url: string) => {
     try {
       const supported = await Linking.canOpenURL(url);
       if (supported) await Linking.openURL(url);
